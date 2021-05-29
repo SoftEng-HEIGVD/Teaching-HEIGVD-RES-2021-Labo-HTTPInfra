@@ -10,6 +10,10 @@ Le Dockerfile copie également le contenu du fichier "site_contents" dans le ré
 
 une fois l'image crée et le container lancé avec un port mappé sur le 80, on peut y accéder avec l'adresse localhost:<portmappé>.
 
+Les fichiers de configuration d'apache se trouvent dans /etc/apache2 dans le container : 
+
+![apacheConf](C:\Users\Don Peg\Documents\HEIG\RES\Teaching-HEIGVD-RES-2021-Labo-HTTPInfra\apache\images\apacheConf.png)
+
 ### Démo
 
 Il faut tout d'abord placer les fichiers nécessaire au site dans le dossier "site_contents".
